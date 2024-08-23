@@ -70,3 +70,54 @@ body {
     font-size: 18px;
     color: rgb(151, 151, 151);
 }
+
+/* section-3 */
+.section-3 {
+    border: 2px solid green;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 50px;
+}
+
+.section-3-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    justify-items: stretch;
+
+}
+
+
+
+.section-3-1-1 {
+    width: 400px;
+    background-color: #ffa0a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.section-3-1-2 {
+    width: 400px;
+    background-color: #ffc1df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.section-3-1-3 {
+    width: 400px;
+    background-color: #83ecff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px;
+}
