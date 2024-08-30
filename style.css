@@ -169,20 +169,50 @@ body {
 
 
 
+/* section-8 */
+.section-8 {
+    border: 2px solid red;
+    margin: 100px 240px;
+    text-align: center;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    border-radius: 20px;
+}
+
+.section-8 p {
+    padding: 0px 300px;
+}
+
+.section-8-input {
+    padding: 20px 32px;
+    border-radius: 8px;
+}
+
+.section-8-btn-1 {
+    color: white;
+    background-color: #E55473;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 32px;
+
+}
 
 
-
+/* footer design */
 footer {
-    margin-left: 240px;
-    margin-right: 240px;
+    /* margin-left: 240px;
+    margin-right: 240px; */
     text-align: center;
     color: white;
     background-color: black;
-    padding: 100px 100px 30px 100px;
+    padding: 100px 240px 30px 240px;
 }
 
 .footer-orange {
-    color: orange;
+    color: #E55473;
 }
 
 footer h2 {
@@ -383,10 +413,50 @@ footer .p-2 {
 
 
 
+    /* section-8 */
+
+    .section-8 {
+        border: 2px solid red;
+        margin: 50px 0px;
+        text-align: center;
+        background-image: url(Rectangle\ 9.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .section-8 p {
+        padding: 16px;
+        text-align: justify;
+
+    }
+
+    .section-8-input {
+        padding: 20px 32px;
+        border-radius: 8px;
+        width: auto;
+    }
+
+    .section-8-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 16px;
+        gap: 12px;
+    }
+
+    .section-8-btn-1 {
+        color: white;
+        background-color: #E55473;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        padding: 20px 32px;
+
+    }
 
 
 
-
+    /* footer design */
     footer {
         margin: 0px;
         text-align: center;
@@ -396,7 +466,7 @@ footer .p-2 {
     }
 
     .footer-orange {
-        color: orange;
+        color: #E55473;
     }
 
     footer h2 {
