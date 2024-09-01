@@ -178,6 +178,29 @@ body {
 
 
 
+/* section-6 */
+.section-6 {
+    border: 2px solid red;
+    margin-top: 25px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.section-6-1 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-6-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+
+
+
 
 
 /* section-8 */
@@ -321,7 +344,9 @@ footer .p-2 {
     .section-2 p {
         font-size: 14px;
         color: rgb(151, 151, 151);
-        text-align: justify;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
 
@@ -439,6 +464,30 @@ footer .p-2 {
 
 
 
+    /* section-6 */
+    .section-6 {
+        border: 2px solid red;
+        margin-top: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        /* background-color: rgb(255, 206, 206); */
+    }
+
+    .section-6-1 img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .section-6-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        background-image: linear-gradient(purple, red, purple, red, purple);
+    }
+
+
+
+
 
 
     /* section-8 */
@@ -450,11 +499,14 @@ footer .p-2 {
         background-image: url(Rectangle\ 9.png);
         background-repeat: no-repeat;
 
+
     }
 
     .section-8 p {
         padding: 16px;
-        text-align: justify;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 
