@@ -53,7 +53,7 @@ body {
 
 /* section-2 */
 .section-2 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 240px;
@@ -75,7 +75,7 @@ body {
 
 /* section-3 */
 .section-3 {
-    border: 2px solid rgb(255, 29, 29);
+    /* border: 2px solid rgb(255, 29, 29); */
     margin-top: 50px;
     margin-left: 240px;
     margin-right: 240px;
@@ -117,7 +117,7 @@ body {
 
 
 .section-4 {
-    border: 2px solid rgb(255, 29, 29);
+    /* border: 2px solid rgb(255, 29, 29); */
     margin-top: 50px;
     margin-left: 240px;
     margin-right: 240px;
@@ -136,7 +136,7 @@ body {
 }
 
 .section-4-1 div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 
 }
@@ -160,13 +160,13 @@ body {
 }
 
 .section-4 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* section-5 */
 .section-5 {
     margin: 0px 240px 0px 240px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 
 }
@@ -180,7 +180,7 @@ body {
 
 /* section-6 */
 .section-6 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 25px;
     margin-left: 240px;
     margin-right: 240px;
@@ -205,7 +205,7 @@ body {
 
 /* section-8 */
 .section-8 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 50px 240px;
     text-align: center;
     background-image: url(Rectangle\ 9.png);
@@ -282,7 +282,7 @@ footer .p-2 {
     /* main-section */
     .main-section-1 {
         background-color: #ffe9ee;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     /* section-1 */
@@ -331,7 +331,7 @@ footer .p-2 {
 
     /* section-2 */
     .section-2 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin: 16px;
         text-align: center;
     }
@@ -353,7 +353,7 @@ footer .p-2 {
 
     /* section-3 */
     .section-3 {
-        border: 2px solid rgb(255, 29, 29);
+        /* border: 2px solid rgb(255, 29, 29); */
         margin: 0px;
     }
 
@@ -400,14 +400,14 @@ footer .p-2 {
     }
 
 
-
+    /* section-4 */
     .section-4 {
 
         margin-top: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-bottom: 0px;
-        border-radius: 0px;
+        border-radius: 12px;
         background-color: rgb(255, 232, 232);
     }
 
@@ -451,7 +451,7 @@ footer .p-2 {
     /* section-5 */
     .section-5 {
         margin: 16px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         text-align: center;
 
     }
@@ -466,7 +466,7 @@ footer .p-2 {
 
     /* section-6 */
     .section-6 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 20px;
         margin-left: 16px;
         margin-right: 16px;
@@ -475,14 +475,16 @@ footer .p-2 {
 
     .section-6-1 img {
         width: 100%;
-        border-radius: 0px;
+        border-radius: 8px;
     }
 
     .section-6-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
-        background-image: linear-gradient(purple, red, purple, red, purple);
+        padding: 16px;
+        border-radius: 16px;
+        background-image: linear-gradient(rgb(255, 194, 255), rgb(255, 170, 170));
     }
 
 
@@ -493,8 +495,8 @@ footer .p-2 {
     /* section-8 */
 
     .section-8 {
-        border: 2px solid red;
-        margin: 50px 0px;
+        /* border: 2px solid red; */
+        margin: 50px 16px;
         text-align: center;
         background-image: url(Rectangle\ 9.png);
         background-repeat: no-repeat;
@@ -513,6 +515,7 @@ footer .p-2 {
     .section-8-input {
         padding: 20px 32px;
         border-radius: 8px;
+        border: 3px solid #ffd5de;
         width: auto;
     }
 
